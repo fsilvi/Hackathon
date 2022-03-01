@@ -1,0 +1,119 @@
+
+body{ 
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color:rgb(236, 230, 222)
+}
+
+.hometext{
+    font-size: 32px;;
+}
+
+
+.title{
+    font-family: 'Tangerine', cursive;
+    font-size: 144px;
+    text-align: center;
+    width: 728px;
+    height: 230px;
+    left: 353px;
+    top: 23px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 40px;
+}
+
+.navbar{
+    font-size: 44px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav1,
+.nav2,
+.nav3,
+.nav4,
+.nav5{
+    background-color: #dddcdc;
+    padding: 10px;
+}
+
+.imggrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    right: 220px;
+    font-size: 32px;
+    padding:15px;
+}
+
+.img1,
+.img2,
+.img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+a:any-link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+.hometext{
+    padding-bottom: 40px;
+}
+
+/*about us page */
+
+.about{
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    padding: 80px;
+}
+
+/* Stone Care page */
+.stonecare{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding: 80px;
+}
+
+
+/* contact page */
+.contact{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding: 80px;
+}
+
+/* media querie */
+
+@media (max-width: 900px) {                                                          
+    .imggrid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 2px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 900px)
+{
+
+.title{
+    position:relative;
+}
+
+.imggrid{
+    position: relative;
+}
+}
